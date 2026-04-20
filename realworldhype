@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayStation Hub</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: white;
+        }
+
+        header {
+            background-color: #0070ff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #161b22;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0070ff;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(to right, #0d1117, #1f2937);
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #0070ff;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .game {
+            background-color: #161b22;
+            padding: 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .game:hover {
+            transform: scale(1.05);
+            border: 1px solid #0070ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #161b22;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #0070ff;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005ad1;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🎮 PlayStation Hub
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Reviews</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to PlayStation World</h1>
+    <p>Your source for PS5 games, news, and reviews</p>
+    <button onclick="showMessage()">Explore</button>
+</section>
+
+<div class="container">
+
+    <h2>🔥 Featured Games</h2>
+
+    <div class="games">
+        <div class="game">
+            <h3>Spider-Man 2</h3>
+            <p>Experience the next-gen superhero adventure.</p>
+        </div>
+
+        <div class="game">
+            <h3>God of War Ragnarok</h3>
+            <p>Join Kratos in an epic Norse journey.</p>
+        </div>
+
+        <div class="game">
+            <h3>Call of Duty</h3>
+            <p>Fast-paced action and multiplayer battles.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 PlayStation Hub | Fan Website
+</footer>
+
+<script>
+function showMessage() {
+    alert("Welcome to the PlayStation Hub!");
+}
+</script>
+
+</body>
+</html>
+<body>
+
+<header>
+    🎮 PlayStation Hub
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Reviews</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to PlayStation World</h1>
+    <p>Your source for PS5 games, news, and reviews</p>
+    <button onclick="showMessage()">Explore</button>
+</section>
+
+<div class="container">
+
+    <h2>🔥 Featured Games</h2>
+
+    <div class="games">
+        <div class="game">
+            <h3>Spider-Man 2</h3>
+            <p>Experience the next-gen superhero adventure.</p>
+        </div>
+
+        <div class="game">
+            <h3>God of War Ragnarok</h3>
+            <p>Join Kratos in an epic Norse journey.</p>
+        </div>
+
+        <div class="game">
+            <h3>Call of Duty</h3>
+            <p>Fast-paced action and multiplayer battles.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 PlayStation Hub | Fan Website
+</footer>
+
+<script>
+function showMessage() {
+    alert("Welcome to the PlayStation Hub!");
+}
+</script>
+
+</body>
