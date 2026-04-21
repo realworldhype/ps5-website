@@ -99,7 +99,7 @@ index.html
 <body>
 
 <header>
-    🎮 PlayStation Hub
+     PlayStation Hub
 </header>
 
 <nav>
@@ -117,7 +117,7 @@ index.html
 
 <div class="container">
 
-    <h2>🔥 Featured Games</h2>
+    <h2> Featured Games</h2>
 
     <div class="games">
         <div class="game">
